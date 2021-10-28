@@ -27,7 +27,6 @@ jobs:
         pip install djangorestframework 
         pip install markdown   
         pip install django-filter
-        pip install -r requirements.txt
     - name: Run Tests
       run: |
         python manage.py test
